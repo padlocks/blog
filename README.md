@@ -1,4 +1,4 @@
-# [openblog](https://mateogianolio.github.io/openblog)
+# [blog](https://mateogianolio.github.io/issuance)
 
 > Open, free blogging on **Github pages** with **Github issues.**
 
