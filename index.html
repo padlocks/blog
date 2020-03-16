@@ -19,11 +19,14 @@
 
       const html = htm.bind(React.createElement)
 
+      const publisherTitle = "Audrey"
+
       const Header = (props) => {
         return html`
           <div className="header">
             <h1 className="title">
-              <a href="index.html">Starlit Isle<br><strong>Bulletin Board</strong></a>
+              <img src="./assets/icon.png"/>
+              <a href="index.html"><strong>Bulletin Board</strong></a>
             </h1>
             <p className="description">
               Starlit Isles' latest events, new, and more!
@@ -92,8 +95,8 @@
                     </div>
                   `}
                   <div className="meta">
-                    <span>by </span>
-                    <a href="${user.html_url}">${user.login}</a>
+                    <span>published by </span>
+                    <a href="">${publisherTitle}</a>
                     <span>, </span>
                     <span>${new Date(created_at).toLocaleDateString()} </span>
                     ${comments
