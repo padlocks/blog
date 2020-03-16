@@ -3,5 +3,5 @@
 
   window.USERNAME = 'padlocks'; // github username
   window.REPO = 'blog'; // github repository
-  window.TOKEN = '06cdd75a64f66c3fc76206ad6e1e73c21a578cf1'; // github app access token
+  window.TOKEN = '2d6dcbf526f86644e2eabfe109fd562c0b0b2370'; // github app access token
 }());
