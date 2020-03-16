@@ -1,4 +1,4 @@
-# [blog](https://mateogianolio.github.io/issuance)
+# Bulletin Board
 
 > Open, free blogging on **Github pages** with **Github issues.**
 
